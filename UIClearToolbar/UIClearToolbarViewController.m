@@ -13,15 +13,11 @@
 @end
 
 @implementation UIClearToolbarViewController
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+@synthesize clearToolbar;
 
 - (void)viewDidUnload
 {
+    [self setClearToolbar:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }

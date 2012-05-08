@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIClearToolbar.h"
 
 @interface UIClearToolbarViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIClearToolbar *clearToolbar;
 
 @end
