@@ -16,6 +16,7 @@
 		DBE3D03915598B4300B512A9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE3D03715598B4300B512A9 /* MainStoryboard_iPhone.storyboard */; };
 		DBE3D03C15598B4300B512A9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE3D03A15598B4300B512A9 /* MainStoryboard_iPad.storyboard */; };
 		DBE3D03F15598B4300B512A9 /* UIClearToolbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE3D03E15598B4300B512A9 /* UIClearToolbarViewController.m */; };
+		DBE3D04715598BA600B512A9 /* UIClearToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE3D04615598BA600B512A9 /* UIClearToolbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,18 @@
 		DBE3D02515598B4300B512A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DBE3D02715598B4300B512A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DBE3D02915598B4300B512A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DBE3D02D15598B4300B512A9 /* UIClearToolbar-Info.plist */ = {isa = PBXFileReference; path = "UIClearToolbar-Info.plist"; sourceTree = "<group>"; };
+		DBE3D02D15598B4300B512A9 /* UIClearToolbar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIClearToolbar-Info.plist"; sourceTree = "<group>"; };
 		DBE3D02F15598B4300B512A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DBE3D03115598B4300B512A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DBE3D03315598B4300B512A9 /* UIClearToolbar-Prefix.pch */ = {isa = PBXFileReference; path = "UIClearToolbar-Prefix.pch"; sourceTree = "<group>"; };
-		DBE3D03415598B4300B512A9 /* UIClearToolbarAppDelegate.h */ = {isa = PBXFileReference; path = UIClearToolbarAppDelegate.h; sourceTree = "<group>"; };
+		DBE3D03315598B4300B512A9 /* UIClearToolbar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIClearToolbar-Prefix.pch"; sourceTree = "<group>"; };
+		DBE3D03415598B4300B512A9 /* UIClearToolbarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIClearToolbarAppDelegate.h; sourceTree = "<group>"; };
 		DBE3D03515598B4300B512A9 /* UIClearToolbarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIClearToolbarAppDelegate.m; sourceTree = "<group>"; };
 		DBE3D03815598B4300B512A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		DBE3D03B15598B4300B512A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		DBE3D03D15598B4300B512A9 /* UIClearToolbarViewController.h */ = {isa = PBXFileReference; path = UIClearToolbarViewController.h; sourceTree = "<group>"; };
+		DBE3D03D15598B4300B512A9 /* UIClearToolbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIClearToolbarViewController.h; sourceTree = "<group>"; };
 		DBE3D03E15598B4300B512A9 /* UIClearToolbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIClearToolbarViewController.m; sourceTree = "<group>"; };
+		DBE3D04515598BA600B512A9 /* UIClearToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIClearToolbar.h; sourceTree = "<group>"; };
+		DBE3D04615598BA600B512A9 /* UIClearToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIClearToolbar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				DBE3D03A15598B4300B512A9 /* MainStoryboard_iPad.storyboard */,
 				DBE3D03D15598B4300B512A9 /* UIClearToolbarViewController.h */,
 				DBE3D03E15598B4300B512A9 /* UIClearToolbarViewController.m */,
+				DBE3D04515598BA600B512A9 /* UIClearToolbar.h */,
+				DBE3D04615598BA600B512A9 /* UIClearToolbar.m */,
 				DBE3D02C15598B4300B512A9 /* Supporting Files */,
 			);
 			path = UIClearToolbar;
@@ -168,6 +173,7 @@
 				DBE3D03215598B4300B512A9 /* main.m in Sources */,
 				DBE3D03615598B4300B512A9 /* UIClearToolbarAppDelegate.m in Sources */,
 				DBE3D03F15598B4300B512A9 /* UIClearToolbarViewController.m in Sources */,
+				DBE3D04715598BA600B512A9 /* UIClearToolbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
